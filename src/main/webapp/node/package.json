@@ -1,0 +1,9 @@
+{
+  "name": "Kamino",
+  "version": "0.0.2",
+  "dependencies": {
+    
+    "socket.io": "1.0.6"
+
+   }
+}

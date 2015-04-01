@@ -1,0 +1,62 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	    
+		<div class="row">
+  <form class="col s12">
+    <div class="row" style="margin-top:10px">
+      <div class="input-field col s9">
+        <!--  
+        <input id="first_name" type="text"/>
+        -->
+        <g:TextBox ui:field="gwtDireccion" styleName="validate"></g:TextBox>
+        <label for="first_name">Direccion de Origen</label>
+      </div>
+      <div class="input-field col s3" >
+      	<!--  
+        	<input id="last_name" type="text" class="validate" tabindex="2"/>
+        -->
+        <g:TextBox ui:field="gwtNumero" styleName="validate"></g:TextBox>
+        <label for="last_name">Numero</label>
+      </div>
+    </div>
+    <div class="row" style="margin-top:-40px">
+      <div class="input-field col s12">
+        <g:TextBox ui:field="gwtReferencia" styleName="validate"></g:TextBox>
+        <label for="referencia">Referencia Ej: Frente al Grifo Municipal</label>
+      </div>
+    </div>
+	<div class="row" style="margin-top:-40px">
+	   <div class="input-field col s12">
+        <!--   <input id="telRef" type="number" class="validate" tabindex="4"/>  -->
+        <g:TextBox ui:field="gwtTelefono" styleName="validate"></g:TextBox>
+        <label for="telRef">Telefono de Referencia</label>
+      </div>
+	</div>
+	<div class="row">
+		<div class="col s12" >
+			<input type="checkbox" id="checkFavorito" />
+    		<label for="checkFavorito" style="font-size: 0.8rem;">Guardar como favorito</label>
+    	</div>
+    </div>
+    <g:HTMLPanel styleName="row" ui:field="txtFavorito">
+    	<div class="input-field col s12">
+				<input id="favorito" type="text" class="validate" />
+        	  	<label for="favorito">Ingrese nombre para guardar favorito</label>
+        		
+    	</div>
+    </g:HTMLPanel>
+  </form>
+  
+</div>
+
+		
+  
+	</g:HTMLPanel>
+</ui:UiBinder> 
