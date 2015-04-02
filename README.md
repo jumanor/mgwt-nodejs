@@ -1,6 +1,6 @@
 MGWT + NODE.JS
 ==
-Este app se realizo para probar GWT Mobile con Phonegap y WebSocket
+Este app se realizo para probar GWT Mobile ([MGWT](http://www.m-gwt.com/))con Phonegap y WebSocket
 
 **FUNCIONAMIENTO**
 
