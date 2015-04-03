@@ -2,7 +2,7 @@ MGWT + NODE.JS
 ==
 Este App se realizo para probar [GWT](http://www.gwtproject.org/) en SmarthPhones ([MGWT](http://www.m-gwt.com/)) con Phonegap y WebSocket
 
-* Se utiliza el patron MVP propuesto [aca](http://www.gwtproject.org/articles/mvp-architecture.html/)
+* Se utiliza el patron MVP propuesto [aca](http://www.gwtproject.org/articles/mvp-architecture.html)
 * Se usa la Api de Google Map
 * Se usa Geolocation
 
