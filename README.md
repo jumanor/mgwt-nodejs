@@ -6,6 +6,8 @@ Este App se realizo para probar [GWT](http://www.gwtproject.org/) en SmarthPhone
 * Se usa la Api de Google Map
 * Se usa Geolocation
 
+Obs: Para usar WebSocket en Phonegap utilizo este [plugin](https://github.com/mkuklis/phonegap-websocket)
+
 ![a link](http://googledrive.com/host/0B72oLqC-8YVbfkJKMFJrTWRuMmhWT19wcE83UFU1T2tHSHhHQllfVzJ2Z2tnUVltV2M3Qm8/smarth2.png?raw=true)
 
 **FUNCIONAMIENTO**
